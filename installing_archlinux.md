@@ -124,6 +124,38 @@
 ### 💥 Boom 
 ![Boom](pics/installing_archlinux/installing_archlinux-25.png)
 
+## Setup Graphical User Interface
+
+### 1. Create User Account.
+- ``` useradd -m -G <Additional-Groups> -s login_shell <User-Name> ```
+- ``` passwd <User-Name> ```
+
+- Edit ``` /etc/sudoers ```
+    ![sudoers_file](pics/installing_archlinux/installing_archlinux-26.png)
+
+
+### 2. Install The Packages.
+
+- ``` pacman -S xorg plasma plasma-wayland-session kde-applications ```
+    ![nstall_Applications](pics/installing_archlinux/installing_archlinux-27.png)
+    > Accept All Defaults!
+
+### 3. Enable <B><i>``` sddm ```</i></B> on systemd
+
+- ``` systemctl enable sddm.servie ```
+    ![Enable_sddm_on_systemd](pics/installing_archlinux/installing_archlinux-28.png)
+
+3. Reboot The system: <B><i>``` rebbot ```</i></B>
+
+### 💥 Boom 
+![seccount_Boom](pics/installing_archlinux/installing_archlinux-29.png)
+
+
+
+
+
+
+
 
 
 
