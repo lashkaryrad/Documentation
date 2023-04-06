@@ -26,7 +26,38 @@
 
 ### 3. Boot In To the Vm.
 1. Click <B><i>Arch Linux Install Medium (x86_64, BIOS)</i></B>
-![](/pics/installing_archlinux/installing_archlinux-6.png)
+![Boot_Menu](/pics/installing_archlinux/installing_archlinux-6.png)
+
+### 4. Step Three: Setup The Time
+- ``` timedatectl set-ntp true ``` 
+
+![Setup_Time](pics/installing_archlinux/installing_archlinux-7.png)
+
+### 5. Step Five: Partitioning.
+1. See the what Disk do you have ``` fdisk -l ``` 
+![Disks](/pics/installing_archlinux/installing_archlinux-8.png)
+
+2. Partition the <B><i>``` /dev/sda ```</i></B>
+![Partition_sda](pics/installing_archlinux/installing_archlinux-9.png)
+
+3. Write ``` n ``` for new patition
+![Create_New_Partition](pics/installing_archlinux/installing_archlinux-10.png)
+
+4. Write ``` w ``` for Write & quit
+![Write_Changes](pics/installing_archlinux/installing_archlinux-11.png)
+
+5. Format the Partiition: ``` mkfs.ext4 /dev/sda1 ```
+![Format_partition](pics/installing_archlinux/installing_archlinux-12.png)
+
+6. Mount The Partition: ``` mount /dev/sda1 /mnt ```
+![Mount_Partition](pics/installing_archlinux/installing_archlinux-13.png)
+
+
+### Step Six: Installing Arch Linux.
+
+1. Install The Base of the OS
+- ``` pacstrap /mnt base base-devel linux linux-firmware vim ```
+![Install_The_structure](pics/installing_archlinux/installing_archlinux-14.png)
 
 
 
