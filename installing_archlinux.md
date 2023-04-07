@@ -149,18 +149,3 @@
 
 ### 💥 Boom 
 ![seccount_Boom](pics/installing_archlinux/installing_archlinux-29.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
