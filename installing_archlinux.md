@@ -107,7 +107,7 @@
     - ``` vim /etc/hostname ```
 
 
-- Link TimeZone: ``` ln -sf /usr/share/zoneinfo/Asia/Tehram /etc/localtime ```
+- Link TimeZone: ``` ln -sf /usr/share/zoneinfo/Asia/Tehran /etc/localtime ```
     ![Link_TimeZone](pics/installing_archlinux/installing_archlinux-23.png)
 
 ### 13. Step Thirteen: Done The Installation.
