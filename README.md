@@ -4,4 +4,4 @@
 ### Categories
 Category | Link | Context
  | --- |--- | ---
-[ArchLinux](https://localhost) | [Install Arch Linux]
+![Suckless_Utils](/pics/categories/Suckless.png) | [Install Arch Linux]()
