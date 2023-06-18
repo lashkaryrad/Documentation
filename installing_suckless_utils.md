@@ -1,0 +1,1 @@
+# install Suckless Display Manager
