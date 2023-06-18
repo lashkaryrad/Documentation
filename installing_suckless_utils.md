@@ -26,3 +26,27 @@ make
 # install it
 sudo make clean installs
 ```
+
+2. dmenu:
+```bash
+# go to dwm DIR
+cd .config/dmenu
+
+# make it
+make
+
+# install it
+sudo make clean installs
+```
+
+3. st:
+```bash
+# go to dwm DIR
+cd .config/st
+
+# make it
+make
+
+# install it
+sudo make clean installs
+```
