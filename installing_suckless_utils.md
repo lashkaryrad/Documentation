@@ -50,3 +50,13 @@ make
 # install it
 sudo make clean installs
 ```
+
+### Start Xorg
+1. ``` vim ~/.bash_profile ```
+```bash
+# run Xorg
+startx
+
+# configure Display Resolution
+xrander -s "<your Display Resolution>"
+```
