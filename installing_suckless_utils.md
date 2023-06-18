@@ -8,3 +8,7 @@
 ### Installing Dependencies
 ```bash
 pacman -S xorg-server xorg-xinit libx11 libxinerama libxft webkit2gtk```
+
+### Configuring Xorg
+1. ```vim ~/.xinitrc```
+2. Append: ``` exec dwm ```
