@@ -4,4 +4,4 @@
 ### Categories
 Category | Link | Context
  | --- |--- | ---
-![Suckless_Utils](/pics/categories/Suckless.png) | [Install Arch Linux]()
+![ArchLinux](/pics/categories/ArchLinux.svg) | [Install Arch Linux](https://github.com/lashkaryrad/Documentation/blob/main/md/install_archlinux.md) | The Fast way to install Arch Linux.
