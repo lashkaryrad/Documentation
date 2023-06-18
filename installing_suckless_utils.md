@@ -5,3 +5,6 @@
 - ```git clone https://git.suckless.org/dmenu```
 - ```git clone https://git.suckless.org/st```
 
+### Installing Dependencies
+```bash
+pacman -S xorg-server xorg-xinit libx11 libxinerama libxft webkit2gtk```
